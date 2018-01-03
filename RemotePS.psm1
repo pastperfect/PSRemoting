@@ -4,7 +4,7 @@ function Get-PsExec {
     Downloads the PsExec excutable from the internet
     
     .DESCRIPTION
-    Downloads the PsExec excutable from the internet to a specified location. It can also add this download location to the PATH variable
+    Downloads the PsExec excutable from the internet to a specified location. It can also add this download location to the PATH variable.
     
     .PARAMETER URL
     URL for the PSEXEC executable, default URL is https://live.sysinternals.com/psexec.exe
