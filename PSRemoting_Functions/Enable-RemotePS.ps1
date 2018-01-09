@@ -1,7 +1,7 @@
 function Enable-RemotePS {
     <#
     .SYNOPSIS
-    Enabled PSremoting on a remote machine
+    Enables PSremoting on a remote machine
     
     .DESCRIPTION
     Enables PSRemoting on a remote machine by using PSEXEC to initiate the Enable-PSRemoting command on the remote machine.
