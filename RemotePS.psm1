@@ -210,7 +210,7 @@ function Enable-RemotePS {
     process {
         if (Test-Connection $Computer -Count 2 -Quiet) {
             Write-Verbose "Running Enable-PSRemoting"
-            & $PSEXEC \\$computer -nobanner -h -d powershell.exe "Enable-PSRemoting -Force" >$null 2>$null    
+            & $PSEXEC \\$computer -nobanner -s -d powershell.exe "Enable-PSRemoting -Force" >$null 2>$null    
         } else {            
             Write-Error "Unable to connect to remote machine"
         }
